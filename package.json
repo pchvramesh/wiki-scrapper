@@ -1,0 +1,19 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo Error: no test specified && exit 1",
+    "start": "node src/index.js",
+    "wiki": "node src/wiki.js",
+    "combine": "node src/combine.js"
+  },
+  "author": "Ramesh (pasupuleti.in)",
+  "license": "ISC",
+  "dependencies": {
+    "@json2csv/plainjs": "^7.0.6",
+    "axios": "^1.7.3",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
